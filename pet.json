@@ -1,0 +1,311 @@
+{
+  "name": "Shigure Ui",
+  "description": "A chibi Shigure Ui companion with idle, waiting, and working dances, plus an anime waterfall-tears reaction.",
+  "sprite_version": 2,
+  "spritesheet": "assets/spritesheet.png",
+  "columns": 8,
+  "cell_width": 192,
+  "cell_height": 208,
+  "rows": [
+    {
+      "state": "idle",
+      "row": 0,
+      "frames": [
+        "assets/frames/idle/00.png",
+        "assets/frames/idle/01.png",
+        "assets/frames/idle/02.png",
+        "assets/frames/idle/03.png",
+        "assets/frames/idle/04.png",
+        "assets/frames/idle/05.png"
+      ],
+      "durations_ms": [
+        280,
+        110,
+        110,
+        140,
+        140,
+        320
+      ]
+    },
+    {
+      "state": "running-right",
+      "row": 1,
+      "frames": [
+        "assets/frames/running-right/00.png",
+        "assets/frames/running-right/01.png",
+        "assets/frames/running-right/02.png",
+        "assets/frames/running-right/03.png",
+        "assets/frames/running-right/04.png",
+        "assets/frames/running-right/05.png",
+        "assets/frames/running-right/06.png",
+        "assets/frames/running-right/07.png"
+      ],
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "state": "running-left",
+      "row": 2,
+      "frames": [
+        "assets/frames/running-left/00.png",
+        "assets/frames/running-left/01.png",
+        "assets/frames/running-left/02.png",
+        "assets/frames/running-left/03.png",
+        "assets/frames/running-left/04.png",
+        "assets/frames/running-left/05.png",
+        "assets/frames/running-left/06.png",
+        "assets/frames/running-left/07.png"
+      ],
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "state": "waving",
+      "row": 3,
+      "frames": [
+        "assets/frames/waving/00.png",
+        "assets/frames/waving/01.png",
+        "assets/frames/waving/02.png",
+        "assets/frames/waving/03.png"
+      ],
+      "durations_ms": [
+        140,
+        140,
+        140,
+        280
+      ]
+    },
+    {
+      "state": "jumping",
+      "row": 4,
+      "frames": [
+        "assets/frames/jumping/00.png",
+        "assets/frames/jumping/01.png",
+        "assets/frames/jumping/02.png",
+        "assets/frames/jumping/03.png",
+        "assets/frames/jumping/04.png"
+      ],
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        280
+      ]
+    },
+    {
+      "state": "failed",
+      "row": 5,
+      "frames": [
+        "assets/frames/failed/00.png",
+        "assets/frames/failed/01.png",
+        "assets/frames/failed/02.png",
+        "assets/frames/failed/03.png",
+        "assets/frames/failed/04.png",
+        "assets/frames/failed/05.png",
+        "assets/frames/failed/06.png",
+        "assets/frames/failed/07.png"
+      ],
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        240
+      ]
+    },
+    {
+      "state": "waiting",
+      "row": 6,
+      "frames": [
+        "assets/frames/waiting/00.png",
+        "assets/frames/waiting/01.png",
+        "assets/frames/waiting/02.png",
+        "assets/frames/waiting/03.png",
+        "assets/frames/waiting/04.png",
+        "assets/frames/waiting/05.png"
+      ],
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        260
+      ]
+    },
+    {
+      "state": "running",
+      "row": 7,
+      "frames": [
+        "assets/frames/running/00.png",
+        "assets/frames/running/01.png",
+        "assets/frames/running/02.png",
+        "assets/frames/running/03.png",
+        "assets/frames/running/04.png",
+        "assets/frames/running/05.png"
+      ],
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "state": "review",
+      "row": 8,
+      "frames": [
+        "assets/frames/review/00.png",
+        "assets/frames/review/01.png",
+        "assets/frames/review/02.png",
+        "assets/frames/review/03.png",
+        "assets/frames/review/04.png",
+        "assets/frames/review/05.png"
+      ],
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ]
+    },
+    {
+      "state": "look-000-157.5",
+      "row": 9,
+      "frames": [
+        "assets/frames/look-000-157.5/00.png",
+        "assets/frames/look-000-157.5/01.png",
+        "assets/frames/look-000-157.5/02.png",
+        "assets/frames/look-000-157.5/03.png",
+        "assets/frames/look-000-157.5/04.png",
+        "assets/frames/look-000-157.5/05.png",
+        "assets/frames/look-000-157.5/06.png",
+        "assets/frames/look-000-157.5/07.png"
+      ],
+      "durations_ms": [
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180
+      ]
+    },
+    {
+      "state": "look-180-337.5",
+      "row": 10,
+      "frames": [
+        "assets/frames/look-180-337.5/00.png",
+        "assets/frames/look-180-337.5/01.png",
+        "assets/frames/look-180-337.5/02.png",
+        "assets/frames/look-180-337.5/03.png",
+        "assets/frames/look-180-337.5/04.png",
+        "assets/frames/look-180-337.5/05.png",
+        "assets/frames/look-180-337.5/06.png",
+        "assets/frames/look-180-337.5/07.png"
+      ],
+      "durations_ms": [
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180
+      ]
+    }
+  ],
+  "look_directions_degrees": [
+    0.0,
+    22.5,
+    45.0,
+    67.5,
+    90.0,
+    112.5,
+    135.0,
+    157.5,
+    180.0,
+    202.5,
+    225.0,
+    247.5,
+    270.0,
+    292.5,
+    315.0,
+    337.5
+  ],
+  "default_variant": "dance",
+  "variants": {
+    "dance": {
+      "label": "More Dancing",
+      "spritesheet": "assets/spritesheet.png",
+      "frame_overrides": {}
+    },
+    "original": {
+      "label": "Original",
+      "spritesheet": "assets/spritesheet-original.png",
+      "frame_overrides": {
+        "idle": [
+          "assets/frames/original/idle/00.png",
+          "assets/frames/original/idle/01.png",
+          "assets/frames/original/idle/02.png",
+          "assets/frames/original/idle/03.png",
+          "assets/frames/original/idle/04.png",
+          "assets/frames/original/idle/05.png"
+        ],
+        "failed": [
+          "assets/frames/original/failed/00.png",
+          "assets/frames/original/failed/01.png",
+          "assets/frames/original/failed/02.png",
+          "assets/frames/original/failed/03.png",
+          "assets/frames/original/failed/04.png",
+          "assets/frames/original/failed/05.png",
+          "assets/frames/original/failed/06.png",
+          "assets/frames/original/failed/07.png"
+        ],
+        "waiting": [
+          "assets/frames/original/waiting/00.png",
+          "assets/frames/original/waiting/01.png",
+          "assets/frames/original/waiting/02.png",
+          "assets/frames/original/waiting/03.png",
+          "assets/frames/original/waiting/04.png",
+          "assets/frames/original/waiting/05.png"
+        ],
+        "running": [
+          "assets/frames/original/running/00.png",
+          "assets/frames/original/running/01.png",
+          "assets/frames/original/running/02.png",
+          "assets/frames/original/running/03.png",
+          "assets/frames/original/running/04.png",
+          "assets/frames/original/running/05.png"
+        ]
+      }
+    }
+  }
+}
